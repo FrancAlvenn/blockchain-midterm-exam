@@ -75,10 +75,46 @@ Each product has a status:
 
 
 ## Screenshots of Steps
- 
-1. Deploy Contract:
+0. **Setup Accounts**
+<img width="361" height="606" alt="image" src="https://github.com/user-attachments/assets/67de0d6f-ebc2-4f4c-be85-3de633db2cc6" />
+
+2. **Deploy Contract**
+   - Use Account 1 (Owner)
+<img width="361" height="606" alt="image" src="https://github.com/user-attachments/assets/c894ebcb-3f61-4f7e-a55a-0ca9b5e6e494" />
+
+3. **Add Roles**
+   - Add Farmer (Account 2)
+<img width="361" height="606" alt="image" src="https://github.com/user-attachments/assets/26c2318f-641b-4f14-9426-6fbbe0c0181d" />
+
+   - Add Distributor (Account 3)
+<img width="361" height="606" alt="image" src="https://github.com/user-attachments/assets/272e8964-6315-47e4-bec7-78892a9a3b6e" />
 
 
+4. **Register Product (Farmer)**
+   - registerProduct(1, "Tilapia Batch A", 100, "Pangasinan")
+<img width="361" height="606" alt="image" src="https://github.com/user-attachments/assets/ab64a250-46f5-406e-b2cd-e07e1c456bd9" />
+
+
+5. **Transfer to Distributor**
+   - transferToDistributor(1, distributorAddress)
+<img width="361" height="606" alt="image" src="https://github.com/user-attachments/assets/d4917c5a-76e0-49cd-ace7-c1727d708c30" />
+
+6. **Confirm Delivery (Distributor)**
+   - confirmDelivery(1)
+<img width="361" height="606" alt="image" src="https://github.com/user-attachments/assets/69597366-0b8c-47b1-ac31-2288665fede8" />
+
+7. **Retrieve Data**
+   - getProduct(1)
+<img width="361" height="606" alt="image" src="https://github.com/user-attachments/assets/5867ae93-435a-4d7a-b46c-089bf59d46e6" />
+
+   - getHistory(1)
+<img width="361" height="606" alt="image" src="https://github.com/user-attachments/assets/63e99433-c772-4c0e-abff-fabf8c823d7e" />
+
+
+
+## Video Capture
+
+https://drive.google.com/file/d/1CwgBMXxYa8QlJHGJwimnPTrfHd4T4Ksr/view?usp=sharing
 
 
 
